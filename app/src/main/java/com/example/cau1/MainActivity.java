@@ -47,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        btnXoa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                txtSoMoi.setText("");
+                txtSoCu.setText("");
+            }
+        });
     }
 
     public void AnhXa(){
